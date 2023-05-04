@@ -1,15 +1,15 @@
-# radynsade/templates
+# radynsade/php-templates
 Simple PHP templating library.
 ## Usage
 Setup root directory to search templates:
 ```
-\Radynsade\Templates\Template::$root = '../templates';
+\Radynsade\PhpTemplates\Template::$root = '../templates';
 ```
 Render template immediately with variables.
 
 **immediately.php:**
 ```
-\Radynsade\Templates\Template::render(
+\Radynsade\PhpTemplates\Template::render(
 	'/folder/with/templates/template',
 	[
 		'title' => 'Home page',
@@ -21,7 +21,7 @@ Or store render result into a variable.
 
 **store.php:**
 ```
-$content = \Radynsade\Templates\Template::read(
+$content = \Radynsade\PhpTemplates\Template::read(
 	'/folder/with/templates/template',
 	[
 		'title' => 'Home page',
