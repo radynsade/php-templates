@@ -1,0 +1,18 @@
+{
+    "name": "radynsade/php-templates",
+    "description": "Simple PHP templating library.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Radynsade\\PhpTemplates\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nikita Prokopenko",
+            "email": "radynje@gmail.com"
+        }
+    ],
+    "require": {}
+}
